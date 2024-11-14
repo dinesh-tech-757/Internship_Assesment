@@ -1,0 +1,34 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 130px;
+  line-height: 40px;
+}
+.footer h3 {
+  font-weight: 500;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.footer li {
+  color: gray;
+  font-size: 20px;
+}
+.footer p {
+  color: gray;
+  font-size: 20px;
+}
+.copyr {
+  background-color: #fff;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (max-width: 1020px) {
+  .footer {
+    padding: 60px 20px;
+  }
+}
